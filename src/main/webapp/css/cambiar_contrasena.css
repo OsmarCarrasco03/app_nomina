@@ -1,0 +1,44 @@
+/* Variables */
+:root {
+  --xxl: 30em;
+  --xl: 30em;
+  --lg: 30em;
+  --md: 30em;
+  --sm: 100%;
+}
+
+/* For screens ≥1400px */
+@media (min-width: 1400px) {
+  .formulario_contrasena{
+  	width: var(--xxl);
+  }
+}
+
+/* For screens ≥1200px but <1400px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .formulario_contrasena{
+  	width: var(--xl);
+  }
+}
+
+/* For screens ≥992px but <1200px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .formulario_contrasena{
+  	width: var(--lg);
+  }
+}
+
+/* For screens ≥768px but <992px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .formulario_contrasena{
+  	width: var(--md);
+  }
+}
+
+/* For screens ≥576px but <768px */
+@media (min-width: 576px) and (max-width: 767px) {
+  .formulario_contrasena{
+  	width: var(--sm);
+  }
+}
+

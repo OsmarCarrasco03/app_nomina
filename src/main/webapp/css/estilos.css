@@ -1,0 +1,701 @@
+/*	NO MOVER LOS ESTILOS YA ESTABLECIDOS
+	AGREGAR SOLO NUEVOS ESTILOS 	*/
+
+/* INICIO SERVICIO*/
+/* Estilo para resaltar el buscador */
+.resaltar-buscador {
+  padding: 8px ;
+  border: 1px solid #333 !important;
+}
+
+/* Estilo para resaltar el texto de marcador de posición del buscador */
+.resaltar-buscador::placeholder {
+  font-weight: bold;
+  color: #000 !important;
+}
+
+/* Estilo para resaltar el buscador cuando está enfocado */
+.resaltar-buscador:focus {
+  border: 2px solid #333 !important; 
+}
+/* FIN SERVICIO*/
+	
+/*botones radio checks */	
+.form-check-input[type="radio"] {
+  
+  border-color: green;
+  }
+
+/* ETIQUETAS */
+body, html {
+   	height: 100%;
+  	margin: 0;
+  /*	padding-top: 50px;*/
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../img/fondo.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.navbar{	
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+/* MARGIN */
+#bienvenidaDiv{
+	width: 100%;
+}
+
+.espacio-titulo{
+    margin-top: 2.5rem;
+}
+
+.div-separacion-grande{
+    margin-top: 2rem;
+}
+
+.div-separacion-mediana{
+    /*margin-top: 0.5rem;*/
+	    margin-top:80px;
+}
+
+.div-separacion-chica{
+    /*margin-top: 0.5rem;*/
+	    margin-top:30px;
+}
+
+.separacion-pequeña{
+    /*margin-top: 0.5rem;*/
+	    margin-top:15px;
+}
+
+.div-separacion-mediana2{
+   margin-top: 0.5rem;
+}
+
+.div-separacion-md1{
+    margin-top: 1rem;
+}
+
+.div-separacion-debajo{
+    margin-bottom: 2rem;
+}
+
+.separacion-form{
+	margin-top: 8rem;
+}
+
+.espacio-inputs{
+	margin-bottom: 0 !important;
+}
+
+.margen_boton{
+	margin-right: 18px;
+}
+
+/* PADDING */
+
+.div-padding{
+	padding: 0.1rem 1rem 1rem;	
+}
+
+.div-padding-sm{
+	padding: 1rem 1rem 1rem;	
+}
+
+/* COLORES */
+
+.nav-color{
+    background-color:#eec39b;
+}
+
+.acordeon-color{
+    background-color: #cfe2ff;
+}
+
+.input-color{
+	background-color: #ffffff;
+}
+
+.input-coloruno{
+    background-color: #f7f9fd;
+}
+
+#navbar {
+	background-color: #13322b;
+}
+
+.color-hr{
+	background-color: #f1dcb6;
+}
+
+.red-asterisk {
+    color: red; /* Set the color to red */
+}
+
+.color-h5 {
+    color: #9e1f16; /* Set the color to red */
+}
+
+.titulo-tab{
+	color: #000000;
+}
+
+/* TAMAÑO DIV */
+
+#separadorNav{
+	height: 75px;
+	width: 100%;
+}
+
+.medida-div-form{
+	height: 29rem;
+	padding-top: 4rem;
+}
+
+.medida-form{
+	padding: 2rem;
+	width: 25rem;
+}
+
+.consulta-persona{
+	width: 48rem;
+}
+
+/*Lista doble*/
+
+
+/* Estilos para la lista doble */
+.custom-select {
+    width: 100%;
+    min-width: 200px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.controls {
+    text-align: center;
+}
+
+.controls a {
+    background-color: #2199e8;
+    border-radius: 4px;
+    border: 0px solid #000;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    font-family: 'open sans';
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .containerx {
+        padding: 0;
+    }
+}
+
+
+/* codgio login nuevo */
+
+.logo-login{
+	margin: 0 0 0 1.7rem;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 40px;
+  background: whithe(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: black;
+  color: #198754;
+  text-align: center;
+}
+
+.titulo-nomina{
+	color: #c69d60 !important;
+}
+
+.box .inputBox {
+  position: relative;
+}
+
+.box .inputBox input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  outline: none;
+  background: transparent;
+}
+
+.box .inputBox label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03a9f4;
+  font-size: 12px;
+}
+
+.box input[type="submit"] {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: black;
+  background: #03a9f4;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.autoComplete_wrapper {
+	display: inline-block;
+	position: relative
+}
+
+.autoComplete_wrapper>input {
+	width: 550px;
+	height: 40px;
+	padding-left: 10px;
+	font-size: 1rem;
+	color: #747474;
+	border-radius: 4px;
+	border: 1px solid rgba(33, 33, 33, .2);
+	outline: 0
+}
+
+.autoComplete_wrapper>input::placeholder {
+	color: rgba(123, 123, 123, .5);
+	transition: all .3s ease
+}
+
+.autoComplete_wrapper>ul {
+	position: absolute;
+	max-height: 226px;
+	overflow-y: scroll;
+	top: 100%;
+	left: 0;
+	right: 0;
+	padding: 0;
+	margin: .5rem 0 0 0;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 1px solid rgba(33, 33, 33, .1);
+	z-index: 1000;
+	outline: 0
+}
+
+.autoComplete_wrapper>ul>li {
+	padding: 10px 20px;
+	list-style: none;
+	text-align: left;
+	font-size: 16px;
+	color: #212121;
+	transition: all .1s ease-in-out;
+	border-radius: 3px;
+	background-color: #fff;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	transition: all .2s ease
+}
+
+.autoComplete_wrapper>ul>li::selection {
+	color: rgba(#fff, 0);
+	background-color: rgba(#fff, 0)
+}
+
+.autoComplete_wrapper>ul>li:hover {
+	cursor: pointer;
+	background-color: rgba(123, 123, 123, .1)
+}
+
+.autoComplete_wrapper>ul>li mark {
+	background-color: transparent;
+	color: #ff7a7a;
+	font-weight: 700
+}
+
+.autoComplete_wrapper>ul>li mark::selection {
+	color: rgba(#fff, 0);
+	background-color: rgba(#fff, 0)
+}
+
+.autoComplete_wrapper>ul>li[aria-selected=true] {	
+	background-color: rgba(123, 123, 123, .1)
+}
+
+@media only screen and (max-width:600px) {
+	.autoComplete_wrapper>input {
+		width: 18rem
+	}
+}
+
+
+/* Estilo para el spinner y centrado */
+.spinner-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100%; /* Ocupa toda la altura del contenedor */
+}
+  
+  
+  
+/* Estilos para el label */
+.custom-label {
+    font-weight: bold; /* Hacer el texto en negritas */
+}
+
+.required-field {
+    color: red; /* Hacer el asterisco (*) en rojo */
+    margin-left: 5px; /* Agregar un espacio entre el texto en negritas y el asterisco */
+}
+
+
+
+.input-invalid {
+
+    font-size: 1.1em;
+    
+    border: 3px solid red;
+    border-radius: 5px;
+    padding: 5px;
+
+   
+    box-shadow: 0 0 20px red;
+
+    box-shadow: 0 0 3px red; 
+
+
+  }
+
+
+
+
+
+  
+
+
+ 
+/* INICIO Servicio */
+.input-valid {
+
+    font-size: 1.1em;
+    
+    border: 3px solid #7cdd45 !important;
+    border-radius: 5px;
+    padding: 5px;
+
+   
+    box-shadow: 0 0 20px #7cdd45 !important;
+
+    box-shadow: 0 0 3px #7cdd45 !important; 
+
+
+  }
+/* FIN Servicio */
+
+
+
+
+
+/* Estilos para el formulario a la izquierda */
+.formulario-izquierda h4 {
+    margin-left: 180px;
+}
+
+/* Estilos para el formulario a la derecha */
+.formulario-derecha h4 {
+    margin-left: 220px;
+}
+
+ #autoComplete {
+  width: 700px;
+  height: 30px;
+  /* Otros estilos que desees aplicar */
+}
+
+/* Estilos para el contenedor principal */
+.background-color {
+    background-color: #c69d60;
+}
+
+/* Estilos para el texto h4 dentro del contenedor */
+.text-center h4 {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Añadir más estilos si es necesario */
+
+
+
+/* Estilos CSS para un footer más delgado */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 10%;
+    background-color: #13322b;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 1px; /* Modifica el espacio interno del footer */
+    height: 25px; /* Ajusta la altura del footer */
+}
+
+
+/* Clases personalizadas para modificar el tamaño del modal */
+.custom-modal {
+    max-width: 800px; /* Ancho máximo del modal */
+}
+
+.custom-modal .modal-content {
+    max-height: 90vh; /* Altura máxima del contenido del modal */
+    overflow-y: auto; /* Añade barra de desplazamiento vertical si el contenido excede la altura */
+}
+
+.custom-modal .modal-footer {
+        margin-top: 1000px; /* Puedes ajustar este valor según sea necesario */
+    }
+    
+  
+  /* Clases personalizadas para modificar el tamaño del modal */
+.custom-modaldis {
+    max-width: 900px; /* Ancho máximo del modal */
+
+}
+
+
+	.error-message {
+	  color: red;
+	  font-size: 12px;
+	  margin-top: 5px;
+	}
+  
+	.error-visible {
+	  display: block;
+	}
+
+  
+
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none; /* Inicialmente oculto */
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay-content img.spinner {
+    width: 100px;
+    height: auto;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+  .hidden {
+    display: none;
+}
+
+.custom-label {
+position: relative;
+display: flex;
+align-items: center;
+}
+
+.tooltip-icon {
+font-size: 1.1em;
+margin-left: 15px;
+color: #007bff;
+cursor: pointer;
+}
+
+.tooltip-icon::before {
+content: "Este campo no es obligatorio";
+position: absolute;
+background-color: #f5e608;
+color: black;
+padding: 10px;
+border-radius: 5px;
+font-size: 1ch;
+opacity: 0;
+visibility: hidden;
+transition: opacity 0.3s ease, visibility 0.3s ease;
+z-index: 1;
+width: 250px;
+text-align: center;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.tooltip-icon:hover::before {
+opacity: 1;
+visibility: visible;
+}
+						
+#mensajeEscribiendo {
+  display: none;
+  position: absolute;
+  background-color: #1867bb; /* Color de fondo azul */
+  color: #fff; /* Color del texto */
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+/* IVAN MODAL DE CONCEPTOS */
+/* Estilos para las tablas creadas dinámicamente */
+.tabla-dinamica {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #e3e3e3;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.tabla-dinamica th,
+.tabla-dinamica td {
+    padding: 12px;
+    text-align: left;
+}
+
+
+
+.tabla-dinamica tbody tr:hover td {
+    background-color: #afcae4;
+}
+
+  
+
+.tabla-dinamica tbody tr:hover {
+    background-color: #ffffcc;
+}
+
+/* Estilos para la fila de encabezado */
+.tabla-dinamica thead th {
+    padding: 12px;
+    text-align: left;
+    background-color: #f5f5f5;
+    color: #333;
+    border-bottom: 2px solid #e3e3e3;
+}
+
+
+/* IVAN MODAL DE CONCEPTOS */
+
+
+.input-busqueda {
+  width: 100%; /* Ancho completo */
+  padding: 10px; /* Espacio interno */
+  border: 1px solid #ccc; /* Borde */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño de fuente */
+  margin-bottom: 10px; /* Margen inferior */
+}
+
+.input-busqueda::placeholder {
+  color: #999; /* Color del texto de marcador de posición */
+}
+
+.input-busqueda:focus {
+   /* Eliminar el contorno en enfoque */
+  border-color: #007bff; /* Color del borde en enfoque */
+}
+
+
+.seleccionada {
+  background-color: #007bff; /* Color de fondo para la fila seleccionada */
+  color: #007bff; /* Color de texto para la fila seleccionada */
+}
+
+.fila-hover {
+  background-color: #007bff; /* Color de fondo al pasar el cursor sobre la fila */
+}
+
+
+
+
+
+/* Estilo para fila seleccionada */
+.seleccionada {
+    background-color: #007bff; /* Color de fondo cuando se selecciona */
+}
+
+/* Estilo para fila al pasar el scroll */
+.tr-scroll-hover {
+    background-color: #007bff; /* Color de fondo al pasar el scroll */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

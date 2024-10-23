@@ -1,0 +1,47 @@
+.tree {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .tree label {
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        .tree label:before {
+            /*content: "\2713";*/
+            display: inline-block;
+            font-size: 14px;
+            width: 20px;
+            text-align: center;
+            margin-right: 5px;
+        }
+
+        .tree ul {
+            display: none;
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        .tree input[type="checkbox"]:checked ~ ul {
+            display: block;
+        }
+
+        .tree input[type="checkbox"] {
+            /*display: none;*/
+            margin-right: 5px;
+        }
+
+        .tree input[type="checkbox"]:not(:checked) + label:before {
+            /*content: "\2715";*/
+            color: red;
+        }
+
+        .tree input[type="checkbox"]:not(:checked) {
+            /*content: "\2715";*/
+            color: red;
+        }
+
+        .tree li {
+            margin: 2px 10px 0;
+        }

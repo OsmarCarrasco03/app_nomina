@@ -1,0 +1,26 @@
+.tab-scroll {
+	height: 17.9rem; /* Set the desired height */
+}
+
+.scroll-vertical {
+	overflow-y: scroll; /* Enable vertical scroll */
+}
+
+#modalBodyPersona {
+	/* height: 19.375rem; */
+	height: 16rem;
+}
+
+.scroll-horizontal {
+	width: 200px; /* Set the desired width */
+	height: 150px; /* Set the desired height */
+	overflow-x: scroll; /* Enable horizontal scroll */
+	border: 1px solid #ccc; /* Optional: add a border */
+}
+
+.scroll-both {
+	width: 200px; /* Set the desired width */
+	height: 150px; /* Set the desired height */
+	overflow: scroll; /* Enable both vertical and horizontal scroll */
+	border: 1px solid #ccc; /* Optional: add a border */
+}
